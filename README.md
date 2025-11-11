@@ -4,9 +4,19 @@ This is a clean and modern **Amazon-style shopping app UI** built using **Flutte
 The focus of this project is on **UI development**, **reusable widgets**, and **responsive layouts** for both Android and iOS.
 
 ## Preview
-<p align="center">
- <img width="260" src="https://user-images.githubusercontent.com/3157579/178204057-dd51e81c-bc60-41db-b626-600a1e2a130e.gif"/>
-</p>
+<div class="row">
+
+<div class="column">
+<h3> Front end </h3>
+<img src= "https://user-images.githubusercontent.com/3157579/178204057-dd51e81c-bc60-41db-b626-600a1e2a130e.gif"/>
+</div>
+
+<div class="column">
+<h3> Admin Panel <h3>
+<img src= "https://user-images.githubusercontent.com/3157579/178206855-2368a5e9-12bf-4110-9d50-45a91d632804.gif" />
+</div>
+
+</div>
 
 ## Project Overview
 This application replicates the core shopping experience of Amazon, including browsing products, viewing product details, managing a cart view, and navigating across multiple screens.  
@@ -45,5 +55,6 @@ flutter run
 - Add user login / signup
 - Store products and orders in database
 - Payment gateway integration
+
 
 
