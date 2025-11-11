@@ -26,19 +26,6 @@ The code is structured to be **beginner-friendly**, readable, and easy to extend
 - Account Section UI  
 - Simple and Smooth Navigation
 
-## Directory Structure
-
-lib/
-├─ features/
-│ ├─ home/
-│ ├─ product/
-│ ├─ cart/
-│ └─ account/
-├─ common/
-├─ models/
-└─ main.dart
-
-
 ## How to Run
 Make sure Flutter SDK is installed.
 Make sure Flutter SDK is installed.
@@ -58,4 +45,5 @@ flutter run
 - Add user login / signup
 - Store products and orders in database
 - Payment gateway integration
+
 
