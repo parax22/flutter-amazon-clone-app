@@ -1,101 +1,61 @@
-# Flutter Amazon Clone
+# Flutter Amazon Clone (UI Only)
+
+This is a clean and modern **Amazon-style shopping app UI** built using **Flutter**.  
+The focus of this project is on **UI development**, **reusable widgets**, and **responsive layouts** for both Android and iOS.
+
+## Preview
 <p align="center">
- <img width="100px" src="https://res.cloudinary.com/rkcloud/image/upload/v1657523587/j5moz55tojlhhhvkjso4.png" align="center" alt="" />
- <h2 align="center">Fullstack Flutter Amazon Clone  </h2>
- <p align="center">A Full Stack Amazon Clone app with Flutter!</p>
+ <img width="260" src="https://user-images.githubusercontent.com/3157579/178204057-dd51e81c-bc60-41db-b626-600a1e2a130e.gif"/>
 </p>
 
-# About
-Full Stack Working Amazon Clone app with Admin Dashboard using Flutter and Backend with NodeJs and MongoDB + Atlas.
+## Project Overview
+This application replicates the core shopping experience of Amazon, including browsing products, viewing product details, managing a cart view, and navigating across multiple screens.  
+The code is structured to be **beginner-friendly**, readable, and easy to extend for backend integration in the future.
 
-## Demo
-<div class="row">
+## What I Focused On
+- Building **responsive UI layouts** compatible with multiple screen sizes.
+- Creating **reusable custom widgets** for scalable development.
+- Maintaining a **clean folder structure** for features and screens.
+- Smooth navigation flow between pages.
 
-<div class="column">
-<h3> Front end </h3>
-<img src= "https://user-images.githubusercontent.com/3157579/178204057-dd51e81c-bc60-41db-b626-600a1e2a130e.gif"/>
-</div>
+## Features (UI-Level)
+- Home Screen with Product Listing UI  
+- Product Detail Screen  
+- Cart Page UI  
+- Category Browsing Layout  
+- Account Section UI  
+- Simple and Smooth Navigation
 
-<div class="column">
-<h3> Admin Panel <h3>
-<img src= "https://user-images.githubusercontent.com/3157579/178206855-2368a5e9-12bf-4110-9d50-45a91d632804.gif" />
-</div>
+## Directory Structure
 
-</div>
-
-
-## Getting Started
-
-This project is a Full stack app for Amazon clone with Admin panel and Server side Flutter and Nodejs application.
-
-### Features
-- User Registration and Login with email and password
-- Persisting Auth State with Provider
-- Search Products
-- Rate Products
-- Add to Cart Product
-- Buy product with ApplePay and Gpay
-- Search Category wise products
-- Add Multiple Address
-- Save default Address
-- Update and Delete Address
-- My Account 
-- Your Orders to view recent Orders
-- Product Details
-- Getting Deal of the Day
-- Viewing Order Details & Status
-- Settings Screen
-- Amazon Pay, miniTV, Funzone
-- Sign Out
-... and many more
-- Admin Panel
-    - View All Products
-    - Add new Products
-    - Delete Products
-    - View Orders and Change current status
-    - Viewing Total Earnings
-    - Viewing Category Based Earnings (on Graph)
-    
-### Requirements
-
-* Get a free API Key at https://cloudinary.com/ for store products image
-* Update Cloud name and Upload preset at ``` lib -> features -> admin -> services -> admin_services.dart ```
-* ![image](https://user-images.githubusercontent.com/3157579/178201535-ca05d27a-4b32-4586-b2eb-fdbee71447f0.png)
-* Create MongoDB at https://cloud.mongodb.com/  and Add your connection string into your application code
-* ``` project -> server -> index.js -> const DB = "mongodb+srv://***" // Please Enter your MongoDB URL ```
-* ![image](https://user-images.githubusercontent.com/3157579/178202797-a25c0423-93a1-40dc-a407-49c4cc0c0ab2.png)
-* Head to ```lib -> constants -> global_variables.dart file```, replace with your IP Address.
+lib/
+├─ features/
+│ ├─ home/
+│ ├─ product/
+│ ├─ cart/
+│ └─ account/
+├─ common/
+├─ models/
+└─ main.dart
 
 
-### Installing Server
-To run the server, run the following commands: 
- ``` cd server
-  npm install
-  npm run dev (for continuous development)
-  OR
-  npm start (to run script 1 time)
-  ```
+## How to Run
+Make sure Flutter SDK is installed.
+Make sure Flutter SDK is installed.
+flutter pub get
+flutter run
 
 
-### Run the App
-Before starting 🏁, you need to have Flutter installed.
-```
-# Clone this project
-$ git clone https://github.com/RathaKrishna/flutter_amazon_clone.git
+## Tools & Tech
+| Purpose | Technology |
+|--------|------------|
+| Framework | Flutter |
+| UI Design | Widgets, Material Design |
+| Platforms | Android & iOS |
 
-# Access
-$ cd amazon_clone
-
-# Pull dependencies
-$ flutter pub get
-
-# Run the project (emulator or physical device needs to be connected first)
-$ flutter run
-
-# Build an apk
-$ flutter build apk --split-per-abi
-```
-
-
-
+## Future Improvements
+- Add backend API or Firebase
+- Add user login / signup
+- Store products and orders in database
+- Payment gateway integration
 
